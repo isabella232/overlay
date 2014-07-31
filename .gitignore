@@ -1,0 +1,12 @@
+*.log
+.promptignore
+cache/
+distfiles/
+eix.cache.*
+etc/
+etc/make.conf
+local/
+metadata/md5-cache/
+metadata/timestamp.chk
+packages/
+profiles/use.local.desc
