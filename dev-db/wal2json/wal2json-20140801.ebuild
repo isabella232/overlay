@@ -9,7 +9,7 @@ inherit git-2
 DESCRIPTION="WAL JSON output plugin"
 HOMEPAGE="https://github.com/remerge/wal2json"
 
-EGIT_REPO_URI="https://github.com/remerge/wal2json.git"
+EGIT_REPO_URI="https://github.com/eulerto/wal2json.git"
 EGIT_COMMIT="032f5d4a932e12066bdca9e92008540cbb66999d"
 
 LICENSE="AGPL-3"
