@@ -1,6 +1,8 @@
 app-admin
+app-portage
 dev-db
 dev-lang
 net-analyzer
 sci-libs
+sys-process
 virtual
