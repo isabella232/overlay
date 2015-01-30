@@ -3,6 +3,7 @@ app-portage
 dev-db
 dev-lang
 net-analyzer
+net-libs
 sci-libs
 sys-process
 virtual
