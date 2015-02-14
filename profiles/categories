@@ -2,6 +2,7 @@ app-admin
 app-portage
 dev-db
 dev-lang
+dev-python
 net-analyzer
 net-libs
 sci-libs
