@@ -15,7 +15,7 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="amd64"
-IUSE="doc examples excel html test R"
+IUSE="doc examples excel html test R python_targets_python3_2"
 
 REQUIRED_USE="
 	excel? ( !python_targets_python3_2 )
