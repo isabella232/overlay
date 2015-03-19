@@ -3,6 +3,7 @@ app-portage
 dev-db
 dev-lang
 dev-python
+dev-ruby
 net-analyzer
 net-libs
 sci-libs
