@@ -7,6 +7,7 @@ dev-ruby
 net-analyzer
 net-libs
 net-dns
+sci-geosciences
 sci-libs
 sys-process
 virtual
