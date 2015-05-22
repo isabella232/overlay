@@ -4,6 +4,8 @@
 
 EAPI=4
 
+S=${WORKDIR}
+
 WANT_ANT_TASKS="ant-nodeps"
 inherit java-pkg-2 java-ant-2
 
@@ -16,8 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="mysql postgres"
 
-DEPEND=">=virtual/jdk-1.5"
-RDEPEND=">=virtual/jre-1.5"
+DEPEND=">=virtual/jdk-1.6"
+RDEPEND=">=virtual/jre-1.6"
 
 src_compile() {
 	eant build_binary || die

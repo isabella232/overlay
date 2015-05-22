@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/sci-geosciences/osmosis/ChangeLog,v 1.5 2011/06/01 13:08:38 scarabeus Exp $
 
+*osmosis-0.43.1 (22 May 2015)
+
+  01 Jun 2011; Thomas Hirsch <thomas.hirsch@liquidm.com> +osmosis-0.43.1.ebuild,
+  -osmosis-0.35.1.ebuild:
+  Bump to latest.
+
 *osmosis-0.35.1 (01 Jun 2011)
 
   01 Jun 2011; Tomáš Chvátal <scarabeus@gentoo.org> +osmosis-0.35.1.ebuild,
