@@ -9,6 +9,7 @@ net-analyzer
 net-libs
 net-dns
 sci-geosciences
+sci-visualization
 sci-libs
 sys-process
 virtual
