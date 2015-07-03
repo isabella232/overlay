@@ -20,7 +20,7 @@ AT_AVAILABLE=( amd64 )
 DEMOS_AVAILABLE=(  )
 FX_VERSION="2_2_$(get_version_component_range 4)"
 
-AT_amd64="http://download.oracle.com/otn-pub/java/jdk/7u80-b15/jdk-7u80-linux-x64.tar.gz"
+AT_amd64="http://ipdb.lqm.io/7u80-b15/jdk-7u80-linux-x64.tar.gz"
 
 FXDEMOS_linux="javafx_samples-${FX_VERSION}-linux.zip"
 
@@ -48,7 +48,7 @@ for d in "${AT_AVAILABLE[@]}"; do
 	SRC_URI+=" )"
 done
 unset d
-SRC_URI+=" jce? ( http://download.oracle.com/otn-pub/java/jce/7/UnlimitedJCEPolicyJDK7.zip )"
+SRC_URI+=" jce? ( http://ipdb.lqm.io/UnlimitedJCEPolicyJDK7.zip )"
 
 LICENSE="Oracle-BCLA-JavaSE examples? ( BSD )"
 SLOT="1.7"
