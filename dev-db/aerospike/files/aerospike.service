@@ -3,7 +3,7 @@ Description=Aerospike Database Server
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/asd
+ExecStart=/usr/bin/asd --foreground
 Restart=always
 SyslogIdentifier=%p
 
