@@ -20,7 +20,7 @@ SRC_URI="http://www.aerospike.com/artifacts/aerospike-amc-community/${AMC_PV}/ae
 
 LICENSE="AGPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE=""
 
 DEPEND="dev-libs/openssl
