@@ -8,7 +8,7 @@ inherit systemd linux-info
 
 DESCRIPTION="Distribute hardware interrupts across processors on a multiprocessor system"
 HOMEPAGE="https://github.com/Irqbalance/irqbalance"
-SRC_URI="https://github.com/Irqbalance/irqbalancefiles/${P}.tar.gz"
+SRC_URI="https://github.com/Irqbalance/irqbalance/archive/v${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
