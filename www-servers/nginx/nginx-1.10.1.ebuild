@@ -591,8 +591,6 @@ src_install() {
 
   cp "${FILESDIR}"/nginx.conf-r2 "${ED}"etc/nginx/nginx.conf || die
 
-  newinitd "${FILESDIR}"/nginx.initd-r3 nginx
-
   systemd_newunit "${FILESDIR}"/nginx.service-r1 nginx.service
 
   doman man/nginx.8
