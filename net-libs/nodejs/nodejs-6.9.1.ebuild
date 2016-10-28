@@ -16,12 +16,12 @@ SRC_URI="http://nodejs.org/dist/v${PV}/node-v${PV}.tar.gz"
 LICENSE="Apache-1.1 Apache-2.0 BSD BSD-2 MIT"
 SLOT="0"
 KEYWORDS="amd64"
-IUSE="icu +npm +snapshot +ssl"
+IUSE="cpu_flags_x86_sse2 icu +npm +snapshot +ssl"
 
 RDEPEND="icu? ( dev-libs/icu )
 	${PYTHON_DEPS}
 	ssl? ( dev-libs/openssl:0=[-bindist] )
-	>=dev-libs/libuv-1.4.2"
+	>=dev-libs/libuv-1.9.0"
 DEPEND="${RDEPEND}
 	!!net-libs/iojs"
 
