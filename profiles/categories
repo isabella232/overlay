@@ -4,6 +4,7 @@ app-portage
 dev-db
 dev-java
 dev-lang
+dev-libs
 dev-python
 dev-ruby
 net-analyzer
